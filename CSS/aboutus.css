@@ -1,0 +1,126 @@
+h1{
+	font-size:40px;
+	font-family:Times New Roman;
+	font-style:italic;
+	color:#CC5500;
+	text-decoration:underline;
+}
+h2{
+	font-size:36px;
+	font-family:Times New Roman;
+	font-style:italic;
+	color:#006B3C;
+}
+table{
+	text-align:center;
+	background-color:yellow;
+	border:3px solid green;
+	border-radius:50px;
+	width:1300px;
+	height:380px;
+}
+table th{
+	font-size:17px;
+	font-family:Cooper Black;
+	font-style:italic;
+	color:#9966CC;
+	text-align:center;
+	text-decoration:underline;
+}
+td.common{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	font-family:Arial;
+	font-style:italic;
+	border:none;
+	border-radius:10px;
+}
+td.f1{
+	background-color:green;
+	color:white;
+}
+td.l1{
+	background-color:pink;
+}
+td.c1{
+	background-color:red;
+	color:orange;
+}
+td.s1{
+	background-color:#841B2D;
+	color:#F2F3F4;
+}
+td.i1{
+	background-color:#665D1E;
+	color:#00FFFF;
+}
+td.i1 a{
+	text-decoration:none;
+	color:#00FFFF;
+	display:block;
+}
+td.i1 a:hover{
+	color:#D891EF;
+	text-decoration:underline;
+	border:3px solid white;
+	border-radius:10px;
+}
+td.i1 a:active{
+	color:#FE6F5E;
+}
+td.d1{
+	background-color:#00FFFF;
+	color:magenta;
+}
+td.m1{
+	background-color:#66FF00;
+	color:#8A2BE2;
+}
+td.e1{
+	background-color:#FF007F;
+	color:yellow;
+}
+.radius1{
+	border:3px solid #FF033E;
+	border-radius:10px;
+	float:right;
+	margin-right:80px;
+}
+input[name=calculator]{
+	float:right;
+	margin-right:470px;
+	margin-top:2px;
+	color:wheat;
+	background-color:black;
+	text-align:center;
+	font-size:23px;
+	font-family:times new roman;
+	font-weight:bold;
+	font-style:italic;
+	border-radius:10px;
+	cursor:pointer;
+}
+td.y1{
+	background-color:#FF033E;
+	color:#FF91AF;
+}
+td.w1{
+	background-color:#C9FFE5;
+	font-size:18px;
+}
+td.w1 a{
+	color:#007FFF;
+	text-decoration:none;
+	display:block;
+}
+td.w1 a:hover{
+	color:#FF1493;
+	text-decoration:underline;
+	border:3px solid black;
+	border-radius:10px;
+}
+td.w1 a:active{
+	color:#0BDA51;
+}
+  

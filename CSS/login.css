@@ -1,0 +1,97 @@
+.common{
+	font-weight:bold;
+	font-style:italic;
+	font-size:23px;
+	font-family:Times New Roman;
+}
+.uname{
+	color:#C9FFE5;
+}
+#username{
+	font-weight:bold;
+	height:28px;
+	padding:10px;
+	border:3px solid black;
+	border-radius:5px;
+	margin-left:24px;
+	background-color:#7BB661;
+}
+.password{
+	color:#6F2DA8;
+	margin-left:9px;
+}
+#password{
+	font-weight:bold;
+	height:28px;
+	padding:10px;
+	border:3px solid white;
+	border-radius:5px;
+	margin-left:28px;
+	background-color:#FFF600;
+	
+}
+.robot{
+	color:#00FF7F;
+}
+#yes{
+	color:#062A78;
+	font-size:23px;
+	font-weight:bold;
+	font-family:Times New Roman;
+	font-style:italic;
+}
+#no{
+	color:#00FF00;
+	font-size:23px;
+	font-weight:bold;
+	font-family:Times New Roman;
+	font-style:italic;
+}
+
+.remember{
+	color:#1C352D;
+	font-size:18px;
+	margin-right:-130px;
+}
+.frgot{
+	font-size:20px;
+	margin-left:110px;
+}
+.radius{
+	border:4px solid orange;
+	border-radius:10px;
+	float:right;
+	margin-right:70px;
+}
+input[name=calculator]{
+	float:right;
+	margin-right:130px;
+	margin-top:5px;
+	color:wheat;
+	background-color:black;
+	text-align:center;
+	font-size:23px;
+	font-family:times new roman;
+	font-weight:bold;
+	font-style:italic;
+	border-radius:10px;
+	cursor:pointer;
+}
+.radius1{
+	border:4px solid #00FFFF;
+	border-radius:25px;
+	margin-left:145px;;
+}
+.radius2{
+	border:4px solid #66FF00;
+	border-radius:25px;
+	margin-left:28px;
+}
+a{
+	text-decoration:none;
+	color:#FF2800;
+}
+a:hover{
+	color:pink;
+	text-decoration:underline;
+}

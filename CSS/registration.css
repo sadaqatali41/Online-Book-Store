@@ -1,0 +1,168 @@
+.comm{
+	font-weight:bold;
+	border-radius:5px;
+	height:28px;
+	padding:10px;
+}
+.fname{
+	color:red;
+	margin-left:62px;
+	font-weight:bold;
+	}
+#firstname{
+	margin-left:20px;
+	background-color:wheat;
+	border:2px solid cyan;
+}
+.lname{
+	color:#66FF00;
+	margin-left:61px;
+	font-weight:bold;
+	}
+#lastname{
+	margin-left:20px;
+	background-color:#C9FFE5;
+	border:2px solid green;
+}
+.uname{
+	color:brown;
+	margin-left:60px;
+	font-weight:bold;
+	}
+#username{
+	margin-left:20px;
+	background-color:#EFDECD;
+	border:2px solid magenta;
+}
+.mobilno{
+	color:green;
+	margin-left:60px;
+	font-weight:bold;
+	}
+#phone{
+	margin-left:20px;
+	background-color:#8F9779;
+	border:2px solid blue;
+	}
+.password{
+	color:Amethyst;
+	margin-left:70px;
+	font-weight:bold;
+	}
+.confpwd{
+	color:Aqua;
+	margin-right:auto;
+	font-weight:bold;
+	}
+#password{
+	margin-left:20px;
+	background-color:#87A96B;
+	border:3px solid yellow;
+	}
+.eadd{
+	color:#CC5500;
+	margin-left:30px;
+	font-weight:bold;
+	}
+#address{
+	margin-left:20px;
+	background-color:yellow;
+	border:2px solid red;
+	}
+.gender{
+	color:#FE6F5E;
+	font-weight:bold;
+	margin-left:15px;
+	}
+.male{
+	color:blue;
+	font-weight:bold;
+	}
+.female{
+	color:#CC0000;
+	font-weight:bold;
+	}
+.bday{
+	color:#FF007F;
+	font-weight:bold;
+	margin-left:95px;
+	}
+.hobby{
+	color:#B8860B;
+	font-weight:bold;
+	margin-left:23px;
+	}
+.termcond{
+	color:#DF00FF;
+	font-weight:bold;
+	font-style:italic;
+	}
+.radius1{
+	border:4px solid yellow;
+	border-radius:20px;
+}
+.radius2{
+	border:4px solid green;
+	border-radius:20px;
+	margin-bottom:4px;
+}
+.radius{
+	margin-left:900px;
+	border:3px solid blue;
+	border-radius:10px;
+}
+input[name=calculator]{
+	float:right;
+	margin-right:100px;
+	margin-top:2px;
+	color:wheat;
+	background-color:black;
+	text-align:center;
+	font-size:23px;
+	font-family:times new roman;
+	font-weight:bold;
+	font-style:italic;
+	border-radius:10px;
+	cursor:pointer;
+}
+#date{
+	background-color:#66FF00;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:10px;
+}
+#month{
+	color:#66FF00;
+	background-color:#8A2BE2;
+	font-style:italic;
+	font-weight:bold;
+}
+#year{
+	color:#FF0038;
+	background-color:wheat;
+	font-style:italic;
+	font-weight:bold;
+}
+#hobby{
+	background-color:#ED9121;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:10px;
+}
+#hobby2{
+	background-color:#ACE1AF;
+	font-style:italic;
+	font-weight:bold;
+}
+label.termcond a{
+	color:black;
+	font-size:22px;
+	text-decoration:none;
+}
+label.termcond a:hover{
+	color:cyan;
+	font-family:Arial;
+}
+label.termcond a:active{
+	color:green;
+}

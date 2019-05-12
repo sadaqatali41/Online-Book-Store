@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Login Form</title>
+<script>
+function validateForm()
+{
+	var uname=document.getElementById('username').value;
+	var pass=document.getElementById('password').value;
+	var pass1=document.getElementById('password1').value;
+	var p1=document.getElementById('una');
+	var p2=document.getElementById('paa');
+	var p3=document.getElementById('cp');
+	if(uname=="")
+	{
+		p1.innerHTML="User Name can not be blanked!!";
+		p1.style.color="red";
+		document.getElementById('username').focus();
+		return false;
+	}
+	if(pass==""){
+		p1.innerHTML=" ";
+		p2.innerHTML="Password Shoud not be blanked!!";
+		p2.style.color="red";
+		document.getElementById('password').focus();
+		return false;
+		}
+	if(pass1==""){
+		p2.innerHTML=" ";
+		p3.innerHTML="Please Enter Confirm Password!!";
+		p3.style.color="red";
+		document.getElementById('password1').focus();
+		return false;
+	}
+	if(pass!=pass1){
+		p3.innerHTML="Confirm Password did not matched!!";
+		p3.style.color="red";
+		document.getElementById('password1').focus();
+		return false;
+	}
+		
+}
+</script>
+</head>
+<body>
+<h1>Welcome To Login Form</h1>
+<form method="post" onsubmit="return validateForm()">
+User Name: <input type="text" name="username" id="username">
+<span id="una"></span><br><br>
+Password : <input type="password" name="password" id="password">
+<span id="paa"></span><br><br>
+Confirm Password: <input type="password" name="password1" id="password1">
+<span id="cp"></span><br><br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+<script>
+function show()
+{
+document.getElementById('show').style.display="block";
+}
+function hide()
+{
+document.getElementById('show').style.display="none";
+}
+
+</script>
+
+<style>
+span{
+color:red;
+font-weight:bold;
+cursor:pointer;
+
+}
+div{
+padding:.5%;
+width:200px;
+height:100px;
+background-color:linen;
+border:2px solid green;
+display:none;
+position:absolute;
+top:100px;
+left:30px;
+z-index:-1;
+}
+div > p{
+color:black;
+}
+
+</style>
+
+</head>
+<body>
+<h1>Hello Every One, How Are you?</h1>
+<span onmouseover="show()" onmouseout="hide()">?</span>
+<div id="show">
+<p>Hi Sadaqat Ali</p>
+<p>How Are You?</p>
+<p>What Is Going On?</p>
+</div>
+</body>
+</html>

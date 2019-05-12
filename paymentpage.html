@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Payment Page</title>
+		<link rel="stylesheet" type="text/CSS" href="CSS/paymentpage.css">
+		<script src="javaScript/paymentValidation.js"></script>
+		<script src="javaScript/Calculators.js"></script>
+	</head>
+	<body background="images/paymentpage.jpg">
+		<div id="main">
+			<form name="PaymentForm" method="post" onsubmit="return paymentValidation()">
+					<h1 id="po">Payment Options.</h1>
+					<input type="button" name="calculator" value="Calculator" onclick="Calculator()" title="Choose Calculator">
+					<input type="image" class="radius1" name="home" src="images/homebutton.jpg" onclick="window.open('homePage1.html');" title="GoToHome"><br/><br/>
+						<br/><img src="images/paymentcard.jpg">
+						<h2 class="choose">Choose Payment Option:-</h2>
+						<input type="radio" name="payment"><label for="payment" class="payment1 common">PhonePe(Wallet)</label><br/><br/>
+						<input type="radio" name="payment"><label for="payment" class="payment2 common">Crdit/Debit/ATM Card</label><br/><br/>
+						<input type="number" name="cardnumber" id="cardnumber" placeholder="Enter card Numbers" maxlength="16">
+						<input type="number" name="cardnumber" id="cvv" placeholder="CVV" maxlength="3" size="2"><br/>
+						<br/><label for="expiry" class="common expry">Expiry:-</label>
+					<select name="month" id="month">
+						<optgroup label="MONTH">
+							<option value="">MONTH</option><option>January</option><option>February</option><option>March</option>
+							<option>April</option><option>May</option><option>June</option><option>July</option><option>August</option>
+							<option>September</option><option>October</option><option>November</option>
+							<option>December</option>
+						</optgroup>
+					</select>
+					<select name="year" id="year" value="">
+						<optgroup label="YEAR">
+							<option value="">YEAR</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option>
+							<option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option> 
+							<option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option> 
+							<option>2031</option><option>2032</option><option>2033</option><option>2034</option><option>2035</option>
+							<option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option>
+							<option>2036</option><option>2037</option><option>2038</option><option>2039</option><option>2040</option>
+							<option>2041</option><option>2042</option>
+						</optgroup>
+					</select><br/><br/>
+						<input type="radio" name="payment"><label for="payment" class="payment3 common">Net Banking:-</label>
+					<select name="bank" id="bank" value="">
+						<optgroup label="CHOOSE BANK">
+							<option value="">Choose Bank Name</option><option>Andhra Bank</option><option>Allahabad Bank</option><option>Bank of India</option>
+							<option>Indian Overseas Bank</option><option>State Bank Of India</option><option>Bank Of Baroda</option>
+							<option>Central Bank Of India</option><option>Punjab National Bank</option>
+							<option>Canara Bank</option><option>Bank of Maharashtra</option><option>IDBI Bank</option>
+							<option>Corporation Bank</option><option>Dena Bank</option><option>Oriental Bank of Commerce</option>
+							<option>Union Bank of India</option><option>UCO Bank</option>
+						</optgroup>
+					</select><br/><br/>
+						<input type="radio" name="payment"><label for="payment" class="payment4 common">Cash On Delivery.</label><br/><br/>
+						<input type="radio" name="payment"><label for="payment" class="payment5 common">EMI(Easy Installments)</label><br/><br/>
+						<input class="radius" type="submit" name="submit" value="Pay Now" style="cursor: pointer;">
+						<input type="reset" class="radius2" name="reset" value="Clear" title="Reset All" style="cursor: pointer;">
+			</form>
+		</div>	
+	</body>
+</html>

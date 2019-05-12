@@ -1,0 +1,103 @@
+h1{
+	font-family:Times New Roman;
+	font-style:italic;
+	text-decoration:underline;
+	color:#9966CC;
+	font-size:40px;
+}
+h1:hover{
+	font-family:Arial;
+	color:#FF033E;
+	font-size:35px;
+	text-shadow:30px 30px 5px #3D0C02;
+}
+h2{
+	color:#0000FF;
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:30px;
+}
+.p1{
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:18px;
+	font-weight:bold;
+}
+.uname{
+	color:red;
+	margin-left:10px;
+}
+#uname{
+	background-color:#ED9121;
+	color:white;
+	padding-left:10px;
+	font-style:italic;
+	font-weight:bold;
+	border:3px solid blue;
+	border-radius:5px;
+	height:30px;
+}
+.emal{
+	 color:green;
+	 margin-left:45px;
+}
+#email{
+	background-color:cyan;
+	padding-left:10px;
+	font-style:italic;
+	font-weight:bold;
+	border:3px solid yellow;
+	border-radius:5px;
+	margin-left:3px;
+	height:30px;
+}
+.phon{
+	color:orange;
+	margin-left:2px;
+}
+#phone{
+	padding-left:10px;
+	font-style:italic;
+	font-weight:bold;
+	border:3px solid purple;
+	border-radius:5px;
+	margin-left:5px;
+	height:30px;
+}
+.desc{
+	color:#FF007F;
+	font-size:25px;
+	margin-left:-120px;
+}
+#area{
+	background-color:#ACE1AF;
+	font-style:italic;
+	font-weight:bold;
+	padding:6px;
+	border:3px solid red;
+	border-radius:10px;
+}
+.radius{
+	border:4px solid #BD33A4;
+	border-radius:14px;
+}
+.homep{
+	border:4px solid #004225;
+	border-radius:10px;
+	float:right;
+	margin-right:60px;
+}
+input[name=calculator]{
+	float:right;
+	margin-right:250px;
+	margin-top:5px;
+	color:wheat;
+	background-color:black;
+	text-align:center;
+	font-size:23px;
+	font-family:times new roman;
+	font-weight:bold;
+	font-style:italic;
+	border-radius:10px;
+	cursor:pointer;
+}

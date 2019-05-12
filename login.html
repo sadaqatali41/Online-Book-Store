@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Login Page</title>
+		<link rel="stylesheet" type="text/CSS" href="CSS/login.css"/>
+		<script src="javaScript/Calculators.js"></script>
+		<script src="javaScript/loginvalidation.js"></script>
+		<script src="javaScript/jquery.js"></script>
+		<style type="text/CSS">
+			.logmar{color:#1B4D3E; font-weight:bold; font-size:40px}
+			.logleg{color:yellow; font-weight:bold; font-size:55px; font-style:italic}
+			
+		</style>
+		<script>
+			window.onbeforeunload = function()
+			{
+				var sms = "Have you finished your exam, you not login again ?";
+				return sms;
+			}
+		</script>
+
+	</head>
+	<body background="images/loginpage.jpg" oncontextmenu="return false;">
+		<marquee behavior="scroll" bgcolor="#F0DC82" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><p class="logmar"><u><i>Login Page</i></u></p></marquee>
+		<center>
+			<form name="LoginForm" method="post" onsubmit="return loginValidation()">
+				<fieldset>
+					<legend><h1 class="logleg">Login Page</h1></legend>
+					<input type="button" name="calculator" value="Calculator" onclick="Calculator()" title="Choose Calculator">
+					<input type="image" class="radius" src="images/homebutton.jpg" onclick="window.open('homePage.html');" title="GoToHome"><br/><br/><br/>
+					<label for="uname" class="uname common">User Name :</label>
+					<input type="text" id="username" name="username" placeholder="User Name" maxlength="20"><br/><br/>
+					<label for="password" class="password common">Password  :</label>
+					<input type="password" id="password" name="password1" placeholder="Password" maxlength="30"><br/><br/>
+					<label for="robot" class="robot common">I am not a Robot.</label>
+					<input type="radio" name="robot" value="yes"><label for="yes" id="yes">Yes.</label>
+					<input type="radio" name="robot" value="no"><label for="no" id="no">No.</label><br/><br/>
+					<input type="checkbox" name="remember" id="remember" value="remember" onclick="check()">
+					<label for="remember" class="remember common">Remember Password.</label><br/><br/>
+					<input type="submit" class="radius1" name="login" style="cursor: pointer;" value="Login" title="LogIn Here">
+					<input type="button" class="radius2" name="register" style="cursor: pointer;" value="Register" onclick="window.open('registration.html');" title="Register YourSelf">
+					<p class="common frgot"><a href="#" target="_blank">Forgot Password?</a></p>
+				</fieldset>
+			</form>
+		</center>
+	</body>
+</html>

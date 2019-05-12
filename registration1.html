@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Registration Page</title>
+<style>
+h1{
+text-align:center;
+}
+input[type=text],input[type=password],input[type=email],input[type=number],input[type=date]{
+	width:115%;
+	height:25px;
+	padding-left:7px;
+	font-style:italic;
+	font-weight:bold;
+	color:green;
+	background-color:linen;
+}
+#main{
+	margin:auto;
+	margin-top:60px;
+	background-color:pink;
+	padding-top:2px;
+	height:500px;
+	width:600px;
+	border:3px solid grey;
+	border-radius:15px;
+}
+table{
+	height:320px;
+}
+.btn{
+	font-size:20px;
+	font-family:times new roman;
+	border-radius:5px;
+	cursor:pointer;
+	margin-top:14px;
+}
+button[type=reset]{
+	margin-left:5px;
+	border:2px solid red;
+	color:white;
+	background-color:red;
+	clear:both;
+}
+button[type=submit]{
+	border:2px solid green;
+	color:black;
+	background-color:green;
+	margin-left:300px;
+}
+</style>
+</head>
+<body bgcolor="linen">
+<h1>Online Books Stores</h1>
+<div id="main">
+<h1>Registration Page</h1>
+<form method="post">
+<table align="center">
+<tr>
+			<th>First Name   :</th>
+			<td><input type="text" name="fname" id="fname" placeholder="First Name"></td>
+</tr>
+<tr>
+			<th>Last Name    :</th>
+			<td><input type="text" name="lname" id="lname" placeholder="Last Name"></td>
+</tr>
+<tr>
+			<th>User Name    :</th>
+			<td><input type="text" name="uname" id="uname" placeholder="User Name"></td>
+</tr>
+<tr>
+			<th>Phone Number :</th> 
+			<td><input type="number" name="number" id="number" placeholder="7893941364"></td>
+</tr>
+<tr>
+			<th>Password     :</th> 
+			<td><input type="password" name="pass" id="pass" placeholder="Password"></td>
+</tr>
+<tr>
+			<th>Confirm Password     :</th> 
+			<td><input type="password" name="pass" id="pass" placeholder="Confirm Password"></td>
+</tr>
+<tr>
+			<th>Email Address:</th> 
+			<td><input type="email" name="email" id="email" placeholder="Example@something.com"></td>
+</tr>
+<tr>
+			<th>Gender       :</th> 
+			<th>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="others">Others
+			</th>
+</tr>
+<tr>
+			<th>Your Birthday:</th>
+			<td><input type="date" name="birthday"></td>
+</tr>
+</table>
+			<button type="submit" class="btn">Submit</button>
+			<button type="reset" class="btn">Reset</button>
+</form>
+</div>
+</body>
+</html>

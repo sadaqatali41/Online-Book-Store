@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Feedback Page</title>
+		<link rel="stylesheet" type="text/CSS" href="CSS/feedbackpage.css">
+		<script src="javaScript/Calculators.js"></script>
+		<script src="javaScript/feedbackValidation.js"></script>
+	</head>
+	<body background="images/feedbackpage.jpg">
+			<marquee behavior="alternate" direction="right" bgcolor="#E3DAC9" onmouseover="this.stop()" onmouseout="this.start()"><h1>Feedback Page</h1></marquee>
+			<form name="FeedbackForm" method="post" action="" onsubmit="return feedbackValidation()">
+				<center>
+					<fieldset>	
+						<legend><h2>Feedback Form</h2></legend>
+					<input type="button" name="calculator" value="Calculator" onclick="Calculator()" title="Choose Calculator">
+						<input type="image" class="homep" name="home" src="images/homebutton.jpg" onclick="window.open('homePage.html');" title="GoToHome"><br/><br/><br/>
+							<label for="uname" class="uname p1">User Name :</label>
+							<input type="text" id="uname" placeholder="User Name" maxlength="25"><br/><br/>
+							<label for="email" class="emal p1">Email :</label> 
+							<input type="email" id="email" placeholder="Example@something.com" maxlength="40"><br/><br/>
+							<label for="mobile" class="phon p1">Mobile No. :</label>
+							<input type="number" id="phone" placeholder="Mobile Number" maxlength="10"><br/><br/>
+							<label for="description" class="desc p1">Your Descriptions :-</label><br/>
+							<textarea rows="10" cols="45" id="area" placeholder="Give Your Valuable Comments."></textarea><br/><br/>
+							<input class="radius" type="submit" name="submit" value="Submit" style="cursor: pointer;">
+					</fieldset>
+				</center>
+			</form>
+		
+	</body>
+</html>
